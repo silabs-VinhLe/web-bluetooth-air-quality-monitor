@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Air Quality Monitoring Demo</title>
+    <meta name="description" content="Monitor air quality with a Web Bluetooth app.">
+    <link rel="icon" sizes="1920x988" href="favicon.ico">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div id="statusText">CONNECT</div>
+    <div id="buzzerVolume">
+      <input id=numBuzzerVolume type="number" min="0" disabled>
+      <button id=btBuzzerVolume type="button" disabled>Set</button>
+    </div>
+    <div><canvas id=co2chart></canvas></div>
+    <div><canvas id=tvocchart></canvas></div>
+    <script src="airQualityMonitoring.js"></script>
+    <script type=module src="app.js"></script>
+  </body>
+</html>
