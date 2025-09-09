@@ -1,0 +1,62 @@
+html {
+  min-width: 100px;
+  position: relative;
+}
+
+body {
+  padding:0;
+  margin:0;
+  width:100vw;
+  height: 100vh;
+  background-color: #333333;
+}
+
+#statusText {
+  /* position: absolute; */
+  bottom: 60%;
+  left: 0;
+  right: 0;
+  text-align: center;
+  margin: 0 auto;
+  color: #fff;
+  font-size: 25px;
+  width: 160px;
+  overflow-x: visible;
+  cursor: default;
+  padding: 12px 0;
+  font-family: Roboto;
+}
+
+#buzzerVolume {
+  text-align: center;
+  bottom: 60%;
+  left: 0;
+  right: 0;
+}
+
+#measurementPeriod {
+  text-align: center;
+  bottom: 60%;
+  left: 0;
+  right: 0;
+}
+
+#co2chart {
+  /* position: absolute; */
+  height: 10vh;
+  width: 90vw;
+  bottom: 5%;
+  /* margin: 0 auto; */
+  /* padding: 12px 12px; */
+  display: block;
+}
+
+#tvocchart {
+  /* position: absolute; */
+  height: 10vh;
+  width: 90vw;
+  bottom: 5%;
+  /* margin: 0 auto; */
+  /* padding: 12px 12px; */
+  display: block;
+}
