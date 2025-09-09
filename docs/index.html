@@ -1,0 +1,16 @@
+<!DOCTYPE html><meta charset=utf-8><meta name=viewport content="width=device-width, initial-scale=1.0"><title>Air Quality Monitoring Demo</title><meta name=description content="Monitor air quality with a Web Bluetooth app."><link rel=icon sizes=1920x988 href=favicon.3c5e3a0c.ico><link rel=stylesheet href=web-bluetooth-air-quality-monitor.c8125e37.css><body>
+    <div id=statusText>CONNECT</div>
+    <div id=buzzerVolume>
+      <input id=numBuzzerVolume type=number min=0 placeholder="Buzzer Volume" disabled>
+      <button id=btBuzzerVolume type=button disabled>Set</button>
+    </div>
+    <div id=measurementPeriod>
+      <input id=numMeasurementPeriod type=number min=0 placeholder="Measurement Period" disabled>
+      <button id=btMeasurementPeriod type=button disabled>Set</button>
+    </div>
+    <div><canvas id=co2chart></canvas></div>
+    <div><canvas id=tvocchart></canvas></div>
+    <script src=web-bluetooth-air-quality-monitor.74010f9e.js></script>
+    <script type=module src=web-bluetooth-air-quality-monitor.54acf3f0.js></script>
+  
+
